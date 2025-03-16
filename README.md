@@ -42,7 +42,7 @@ m5core2_mawaranai_sushi プロジェクトは、回らない寿司を描画す�
 
 6. Open the project:
     - In the right Editor Groups, Click `Open Project` in the `PIO HOME` tab.
-    - Select the cloned `m5core2_voronoi` project folder.
+    - Select the cloned `m5core2_mawaranai_sushi` project folder.
 
 7. Upload the project:
     - In the left Primary Sidebar, go to `PROJECT TASKS > m5stack-core2 > General > Upload`.
@@ -72,7 +72,7 @@ m5core2_mawaranai_sushi プロジェクトは、回らない寿司を描画す�
 
 6. プロジェクトを開きます:
     - 右のエディターグループ内の `PIO HOME` タブで `Open Project` をクリックします。
-    - クローンした `m5core2_voronoi` プロジェクトフォルダーを選択します。
+    - クローンした `m5core2_mawaranai_sushi` プロジェクトフォルダーを選択します。
 
 7. プロジェクトをアップロードします:
     - 左のメインサイドバーから `PROJECT TASKS > m5stack-core2 > General > Upload` を選択します。

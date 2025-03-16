@@ -1,17 +1,14 @@
-
 # Overview
 
-A sketch for [M5Stack Core2](https://docs.m5stack.com/#/en/core/core2).
+The m5core2_mawaranai_sushi project is a non-rotating sushi renderer for the [M5Stack Core 2](https://docs.m5stack.com/#/en/core/core2) .
 
-m5core2_mawaranai_sushi is a program showing nonrotation-sushi.
+In Japan, ‘mawaranai sushi’ (non-rotating sushi) means high-end sushi restaurants where sushi is served directly to you, rather than moving on a conveyor belt like its cheaper counterparts. Inspired by this noble tradition, I created a humorous project that ensures digital sushi stays 'non-rotating'—even when you physically rotate the M5Stack itself.
 
-Note: M5Stack Core2 does not have a compass. So sushi will be drift a bit, actually. :)
+Note: The M5Stack Core2 doesn’t have a compass, so don’t be surprised if sushi starts to drift a bit. It’s all part of the fun! :)
 
 \[日本語\]
 
-[M5Stack Core2](https://docs.m5stack.com/#/en/core/core2) 用のスケッチ。
-
-m5core2_mawaranai_sushi は、回らない寿司を表示するプログラムです。
+m5core2_mawaranai_sushi プロジェクトは、回らない寿司を描画する [M5Stack Core 2](https://docs.m5stack.com/#/en/core/core2) 用のソフトウェアです。
 
 なお、M5Stack Core2にはコンパスがありません。したがって、実のところ寿司は少しドリフトします…。
 
@@ -19,40 +16,71 @@ m5core2_mawaranai_sushi は、回らない寿司を表示するプログラム�
 
 ![video](video.gif)
 
-# Installing
 
-1. Download this project from [GitHub](https://github.com/cubic9com/m5core2_mawaranai_sushi/) .
-1. Download and install [Visual Studio Code ](https://code.visualstudio.com/) .
-1. Launch VSCode.
-1. Click the Extensions manager icon in the left Activity Bar.
-1. Search for `platformio ide` and install the `PlatformIO IDE` extension.
-1. Launch VSCode.
-1. Click the PlatformIO icon in the left Activity Bar.
-1. Click `QUICK ACCESS/PIO Home/Open` in the left Primary Sidebar.
-1. Click `Open Project` in the `PIO HOME` tab in the right Editor Groups.
-1. Open this project which you downloaded above.
-1. Click the PlatformIO icon in the left Activity Bar.
-1. Click `PROJECT TASKS/m5stack-core2/General/Upload` in the left Primary Sidebar.
+# Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/cubic9com/m5core2_mawaranai_sushi.git
+    cd m5core2_mawaranai_sushi
+    ```
+
+2. Install [Visual Studio Code](https://code.visualstudio.com/) if you haven't already.
+
+3. Open the project in Visual Studio Code:
+    ```sh
+    code .
+    ```
+
+4. Install `PlatformIO IDE` extension:
+    - Go to the Extensions view (`Ctrl+Shift+X`).
+    - Search for `PlatformIO IDE` and install it.
+
+5. Open PlatformIO Home:
+    - In the left Activity Bar, click the PlatformIO icon.
+    - In the left Primary Sidebar, Go to `QUICK ACCESS > PIO Home > Open`.
+
+6. Open the project:
+    - In the right Editor Groups, Click `Open Project` in the `PIO HOME` tab.
+    - Select the cloned `m5core2_voronoi` project folder.
+
+7. Upload the project:
+    - In the left Primary Sidebar, go to `PROJECT TASKS > m5stack-core2 > General > Upload`.
 
 \[日本語\]
 
-1. このプロジェクトを[GitHub](https://github.com/cubic9com/m5core2_eyes)からダウンロードする。
-1. [Visual Studio Code](https://code.visualstudio.com/)をダウンロードしてインストールする。
-1. VSCodeを起動する。
-1. 左のアクティビティバーにあるExtensions managerアイコンをクリックする。
-1. `platformio ide` を検索し、 `PlatformIO IDE` エクステンションをインストールする。
-1. VSCodeを起動する。
-1. 左のアクティビティバーのPlatformIOアイコンをクリックする。
-1. 左のプライマリサイドバーの `QUICK ACCESS/PIO Home/Open` をクリックする。
-1. 右側のエディタグループの `PIO HOME` タブにある `Open Project` をクリックする。
-1. 上記でダウンロードしたプロジェクトを開く。
-1. 左のアクティビティバーのPlatformIOアイコンをクリックする。
-1. 左のプライマリサイドバーの `PROJECT TASKS/m5stack-core2/General/Upload` をクリックする。
+1. リポジトリをクローンします:
+    ```sh
+    git clone https://github.com/cubic9com/m5core2_mawaranai_sushi.git
+    cd m5core2_mawaranai_sushi
+    ```
 
-# LICENSE
+2. まだインストールしていない場合は、[Visual Studio Code](https://code.visualstudio.com/) をインストールします。
 
-Copyright (C) 2021, cubic9com All rights reserved.
+3. Visual Studio Code でプロジェクトを開きます:
+    ```sh
+    code .
+    ```
 
-This code is licensed under the MIT license.
+4. `PlatformIO IDE` 拡張機能をインストールします:
+    - 左サイドバーの「拡張機能」ビュー (`Ctrl+Shift+X`) を開きます。
+    - `PlatformIO IDE` を検索してインストールします。
 
-See file LICENSE for more information.
+5. PlatformIO Home を開きます:
+    - 左のアクティビティバーで PlatformIO アイコンをクリックします。
+    - 左のメインサイドバーから `QUICK ACCESS > PIO Home > Open` を選択します。
+
+6. プロジェクトを開きます:
+    - 右のエディターグループ内の `PIO HOME` タブで `Open Project` をクリックします。
+    - クローンした `m5core2_voronoi` プロジェクトフォルダーを選択します。
+
+7. プロジェクトをアップロードします:
+    - 左のメインサイドバーから `PROJECT TASKS > m5stack-core2 > General > Upload` を選択します。
+
+# License
+
+Copyright (C) 2025, cubic9com All rights reserved.
+
+This project is licensed under the MIT license.
+
+See file `LICENSE` file for details.

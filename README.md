@@ -32,12 +32,12 @@ m5core2_mawaranai_sushi プロジェクトは、回らない寿司を描画す�
     code .
     ```
 
-4. Install `PlatformIO IDE` extension:
+4. Install the `PlatformIO IDE` extension:
     - Go to the Extensions view (`Ctrl+Shift+X`).
     - Search for `PlatformIO IDE` and install it.
 
 5. Open PlatformIO Home:
-    - In the left Activity Bar, click PlatformIO icon.
+    - In the left Activity Bar, click the PlatformIO icon.
     - In the left Primary Sidebar, go to `QUICK ACCESS > PIO Home > Open`.
 
 6. Open the project:

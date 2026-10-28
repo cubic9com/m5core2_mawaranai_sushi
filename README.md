@@ -1,16 +1,16 @@
 # Overview / 概要
 
-The m5core2_mawaranai_sushi project is a non-rotating sushi renderer for the [M5Stack Core 2](https://docs.m5stack.com/#/en/core/core2) .
+Luxury sushi doesn't go around — a playful non-rotating sushi display for the [M5Stack Core 2](https://docs.m5stack.com/#/en/core/core2). 
 
-In Japan, ‘mawaranai sushi’ (non-rotating sushi) means high-end sushi restaurants where sushi is served directly to you, rather than moving on a conveyor belt like its cheaper counterparts. Inspired by this noble tradition, I created a humorous project that ensures digital sushi stays 'non-rotating'—even when you physically rotate the M5Stack itself.
+In Japan, ‘mawaranai sushi’ (non-rotating sushi) means high-end sushi restaurants where sushi is served directly to you, rather than moving on a conveyor belt like its cheaper counterparts. Inspired by this noble tradition, this project keeps its digital sushi non-rotating — even when you physically rotate the M5Stack itself.
 
-Note: The M5Stack Core2 doesn’t have a compass, so don’t be surprised if sushi starts to drift a bit. It’s all part of the fun! :)
+Note: the Core2 has no compass, so the sushi drifts a little; it's all part of the fun.
 
 \[日本語\]
 
-m5core2_mawaranai_sushi プロジェクトは、回らない寿司を描画する [M5Stack Core 2](https://docs.m5stack.com/#/en/core/core2) 用のソフトウェアです。
+高級寿司は「回らない」―― [M5Stack Core 2](https://docs.m5stack.com/#/en/core/core2)で楽しめる、回転しない寿司を描画するソフトウェアです。
 
-なお、M5Stack Core2にはコンパスがありません。したがって、実のところ寿司は少しドリフトします…。
+なお、Core2にはコンパスが搭載されていないため、寿司の位置が少しずれてしまうことがありますが、それもまたご愛嬌ということでお楽しみください。
 
 # Video / ビデオ
 
